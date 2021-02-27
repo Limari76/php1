@@ -1,0 +1,264 @@
+@media only screen and (min-width: 960px) 
+{
+	.col-l-2 {width: 16.66%; float: left;}
+	.col-l-3 {width: 25%; float: left;}
+	.col-l-4 {width: 33.33%; float: left;}
+	.col-l-6 {width: 50%; float: left;}
+	.col-l-10 {width: 83.33%; float: left;}
+	.col-l-12 {width: 100%; float: left;}
+	.contenedor {max-width: 940px;}
+	.desaparecermovil{display: block;}
+}
+
+@media only screen and (min-width: 720px) and (max-width: 959px)
+{
+	.col-m-2 {width: 16.66%; float: left;}
+	.col-m-3 {width: 25%; float: left;}
+	.col-m-4 {width: 33.33%; float: left;}
+	.col-m-6 {width: 50%; float: left;}
+	.col-m-10 {width: 83.33%; float: left;}
+	.col-m-12 {width: 100%; float: left;}
+	.contenedor {max-width: 700px}
+	.desaparecermovil{display: block;}
+}
+
+@media only screen and (min-width: 540px) and (max-width: 719px)
+{
+	.col-s-2 {width: 16.66%; float: left;}
+	.col-s-3 {width: 25%; float: left;}
+	.col-s-4 {width: 33.33%; float: left;}
+	.col-s-6 {width: 50%; float: left;}
+	.col-s-10 {width: 83.33%; float: left;}
+	.col-s-12 {width: 100%; float: left;}
+	.desaparecermovil{display: none;}
+}
+
+.contenedor{
+	width: 100%;
+	padding-right:15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.imagenslider img{
+	width: 100%;
+	height: auto;
+}
+
+.formulario{
+	color: #000;
+	text-align: center;
+}
+
+.formulario h2{
+	font-family: 'Permanent Marker', cursive;
+	padding: 30px;
+}
+
+form{
+	padding: 30px 60px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+form input{
+	margin-bottom: 15px;
+	width: 100%;
+	padding: 10px;
+	resize: horizontal;
+	border-radius: 25px 25px;
+}
+
+form button{
+	display: block;
+	background-color: #0095ab;
+	padding: 10px 45px;
+	border: 0;
+	color: white;
+}
+
+form button:hover{
+	background-color: #046193;
+	font-size: 25px;
+}
+
+.titulos{
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Permanent Marker', cursive;
+	padding: 30px 15px;
+}
+
+.contenidoventaja{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icono{
+	padding-top: 15px;
+	font-size: 22px;
+	text-align: right;
+}
+
+.subtitulo{
+	padding-top: 15px;
+	font-size: 25px;
+	text-align: left;
+	font-family: 'Architects Daughter', cursive;
+	padding: 15px 10px;
+}
+
+.parrafoventaja{
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.parrafoventaja p{
+	text-align: justify;
+}
+
+.icono2{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive ;
+	padding-top: 30px;
+}
+
+.icono3{
+	text-align: right;
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive ;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+.imagenslider2 img{
+	width: 100%;
+	height:auto;
+}
+
+.contenidocaracteristicas{
+	padding-left: 80px;
+	padding-right: 10px;
+}
+
+.icono4{
+	text-align: left;
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive ;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+.parrafocaracteristicas{
+	font-size: 15px;
+	text-align: left;
+}
+
+.parrafocaracteristicas p{
+	padding-left: 40px;
+}
+
+.parallax{
+	background: #fff fixed no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#seccion1{
+	background-image: url(../img/beachbackground.jpg);
+}
+
+.text-parallax{
+	text-align: center;
+	padding: 150px 0;
+	color: #fff;
+	background-color: rgb(0 0 0 / 58%);
+}
+
+.sec-footer{
+	text-align: justify;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 5px;
+}
+
+.contacto{
+	text-align: justify;
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive ;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+.icono5{
+	text-align: justify;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+
+body{
+	font-family: 'Kalam', cursive;
+
+}
+
+
+
+
+
+
+.sec1{
+	background-color: lightgray;
+}
+
+.sec3{
+	background-color: #b0def9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;	
+}
+
+
+
+
+
+
+
+
+.logo img{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.links{
+	text-align: left;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
